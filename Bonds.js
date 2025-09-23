@@ -2,16 +2,16 @@ const output =
 document.getElementById("output");
 
 const commands = [
-    "Initializing system...",
-    "Loading darknet protocols...",
-    "Bypassing firewall...",
-    "Acessing encrypted files...",
-    "Injecting payload...",
-    "Establishing reverse shell...",
-    "Acess granted!...",
-    "Extracting data from target...",
-    "Uploading to secure server...",
-    "Operation completed successfully..."
+    "USDC Bonds on Arbitrum",
+    "tBTC Bonds on Ethereum",
+    "High Yield Bonds 12% APY",
+    "USD.e Bonds on Arbitrum",
+    "USD1 Treasury Bonds on Base",
+    "USDx Bonds on BNB Chain",
+    "High Yield Savings Bonds on Base",
+    "US Treasury Bonds on Arbitrum",
+    "Coffhee Bonds on Ethereum",
+    "Coffhee Bonds on Polkadot"
 ];
 
 let commandIndex = 0;
@@ -33,5 +33,6 @@ function typeCommand() {
         output.innerHTML += "<br> <span class='cursor'></span>";
     }
 }
+
 
 typeCommand();
