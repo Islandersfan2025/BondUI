@@ -2,7 +2,7 @@ const output =
 document.getElementById("output");
 
 const commands = [
-    "SilverMoon- 5.39% Coupon Rate, 1/1/2028 Maturity Date, USDC '<a href="https://islandersfan2025.github.io/Bond-DecryptionUI/">Example</a>'",
+    "SilverMoon- 5.39% Coupon Rate, 1/1/2028 Maturity Date, USDC",
     "CoffeeSwap- 5.39% Coupon Rate, 1/1/2028 Maturity Date, ETH",
     "Charles Duncan Investments- High Yield Bond 12% APY, 1/1/2028 Maturity Date, USDT"
 ];
@@ -29,6 +29,7 @@ function typeCommand() {
 
 
 typeCommand();
+
 
 
 
