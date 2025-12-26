@@ -2,16 +2,9 @@ const output =
 document.getElementById("output");
 
 const commands = [
-    "USDC Bonds on Arbitrum",
-    "tBTC Bonds on Ethereum",
-    "High Yield Bonds 12% APY",
-    "USD.e Bonds on Arbitrum",
-    "USD1 Treasury Bonds on Base",
-    "USDx Bonds on BNB Chain",
-    "High Yield Savings Bonds on Base",
-    "US Treasury Bonds on Arbitrum",
-    "Coffhee Bonds on Ethereum",
-    "Coffhee Bonds on Polkadot"
+    "SilverMoon- 5.39% Coupon Rate, 1/1/2028 Maturity Date, USDC <a href="https://islandersfan2025.github.io/Bond-DecryptionUI/">Example</a>",
+    "CoffeeSwap- 5.39% Coupon Rate, 1/1/2028 Maturity Date, ETH",
+    "Charles Duncan Investments- High Yield Bond 12% APY, 1/1/2028 Maturity Date, USDT",
 ];
 
 let commandIndex = 0;
@@ -36,3 +29,4 @@ function typeCommand() {
 
 
 typeCommand();
+
